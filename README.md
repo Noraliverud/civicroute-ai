@@ -1,4 +1,5 @@
 # CivicRoute AI
+Author: Nora Liverud 
 
 CivicRoute AI is a Keras prototype of a possible solution for a city council to get help with categorising its public service requests. It is a prediction model trained to categorise incoming reports. Reports are split into four categories: potholes, broken streetlights, water leaks and illegal dumping. The model is intended to be used as a tool by city council employees.
 
