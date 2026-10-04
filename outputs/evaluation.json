@@ -1,0 +1,68 @@
+{
+  "random_seed": 2026,
+  "hidden_units": 16,
+  "epochs": 30,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "training_rows": 360,
+  "validation_rows": 120,
+  "test_rows": 120,
+  "input_columns": [
+    "created_hour",
+    "repeat_report_count",
+    "image_quality_score",
+    "nearby_asset_age_years",
+    "description_word_count",
+    "previous_resolution_days",
+    "channel_call_centre",
+    "channel_mobile_app",
+    "channel_service_office",
+    "channel_web_portal",
+    "urgency_level_high",
+    "urgency_level_low",
+    "urgency_level_medium",
+    "recent_rain_flag_no",
+    "recent_rain_flag_yes"
+  ],
+  "class_names": [
+    "broken_streetlight",
+    "illegal_dumping",
+    "pothole",
+    "water_leak"
+  ],
+  "final_training_accuracy": 0.7833333611488342,
+  "final_validation_accuracy": 0.7749999761581421,
+  "final_training_loss": 0.6197616457939148,
+  "final_validation_loss": 0.6008406281471252,
+  "test_accuracy": 0.75,
+  "test_loss": 0.6450207829475403,
+  "correct_test_predictions": 90,
+  "confusion_matrix": [
+    [
+      24,
+      0,
+      4,
+      2
+    ],
+    [
+      1,
+      27,
+      1,
+      1
+    ],
+    [
+      9,
+      2,
+      14,
+      5
+    ],
+    [
+      2,
+      1,
+      2,
+      25
+    ]
+  ],
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1"
+}
